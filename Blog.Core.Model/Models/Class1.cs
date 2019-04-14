@@ -10,5 +10,6 @@ namespace Blog.Core.Model.Models
     public class Class1
     {
         public int test { get; set; }
+        public int age { get; set; }
     }
 }
