@@ -1,0 +1,300 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog.Core.Model</name>
+    </assembly>
+    <members>
+        <member name="T:Blog.Core.Model.Class1">
+            <summary>
+            这是测试类库
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Class1.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Class1.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Class1.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Model.MessageModel`1">
+            <summary>
+            通用返回消息类
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.MessageModel`1.Success">
+            <summary>
+            操作是否成功
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.MessageModel`1.Msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.MessageModel`1.Data">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Model.Advertisement">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.Advertisement.Createdate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Model.BlogAtricle">
+            <summary>
+            博客文章
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogAtricle.bId">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogAtricle.bsubmitter">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogAtricle.bTitle">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogAtricle.bCategory">
+            <summary>
+            类别
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogAtricle.bContent">
+            <summary>
+            内容，对应的是数据库的类型
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogAtricle.bTraffic">
+            <summary>
+            访问量
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogAtricle.bCommentNum">
+            <summary>
+            评论数量
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogAtricle.bUpdateTime">
+            <summary> 
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogAtricle.bCreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogAtricle.bRemark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Model.TableModel`1">
+            <summary>
+            表格数据，支持分页
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.TableModel`1.Code">
+            <summary>
+            返回编码
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.TableModel`1.Msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.TableModel`1.Count">
+            <summary>
+            记录总数
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.TableModel`1.Data">
+            <summary>
+            返回数据集
+            </summary>
+        </member>
+        <member name="T:Blog.Core.Model.BlogViewModels">
+            <summary>
+            博客信息展示类
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.bID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.bsubmitter">
+            <summary>创建人
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.btitleAuto">
+            <summary>博客标题
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.digest">
+            <summary>摘要
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.previous">
+            <summary>
+            上一篇
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.previousID">
+            <summary>
+            上一篇id
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.next">
+            <summary>
+            下一篇
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.nextID">
+            <summary>
+            下一篇id
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.bcategory">
+            <summary>类别
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.bcontent">
+            <summary>内容
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.btraffic">
+            <summary>
+            访问量
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.bcommentNum">
+            <summary>
+            评论数量
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.bUpdateTime">
+            <summary> 修改时间
+            
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.bCreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Blog.Core.Model.BlogViewModels.bRemark">
+            <summary>备注
+            
+            </summary>
+        </member>
+        <member name="M:Blog.Core.UtilConvert.ObjToInt(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.UtilConvert.ObjToInt(System.Object,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.UtilConvert.ObjToMoney(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.UtilConvert.ObjToMoney(System.Object,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.UtilConvert.ObjToString(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.UtilConvert.ObjToString(System.Object,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.UtilConvert.ObjToDecimal(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.UtilConvert.ObjToDecimal(System.Object,System.Decimal)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.UtilConvert.ObjToDate(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.UtilConvert.ObjToDate(System.Object,System.DateTime)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <param name="errorValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.UtilConvert.ObjToBool(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="thisValue"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
