@@ -9,6 +9,6 @@ namespace Blog.Core.Model.Models
     /// </summary>
     public class Class1
     {
-
+        public int test { get; set; }
     }
 }
